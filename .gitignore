@@ -1,0 +1,15 @@
+# Python build artifacts
+__pycache__/
+*.pyc
+
+# Word lock files (when DOCX artifacts are open in Word)
+~$*.docx
+
+# Local test scratch (untracked sandbox)
+.test/
+
+# Private redaction-pattern list used by RELEASING.md pre-flight scrub.
+# Contains the specific strings that were redacted from the repo; keep
+# local-only so the pattern set itself does not become a treasure map
+# of what was hidden. See RELEASING.md for what should go in here.
+.release-patterns.private
